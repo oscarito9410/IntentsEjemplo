@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oscar.intents.DetalleActivity">
+
+    <TextView
+        android:id="@+id/txtvselecciona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selecciona_opcion"
+        android:textSize="30sp"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/rojoprimario"
+        />
+
+    <Button
+        android:id="@+id/btnllamar"
+        android:text="@string/llamar"
+        android:layout_below="@+id/txtvselecciona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:onClick="llamar"
+        />
+
+    <Button
+        android:id="@+id/btnmapa"
+        android:text="@string/mapa"
+        android:layout_below="@+id/btnllamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:onClick="mapear"
+        />
+
+    <Button
+        android:id="@+id/btnbuscar"
+        android:text="@string/buscar"
+        android:layout_below="@+id/btnmapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:onClick="buscarweb"
+        />
+
+    <Button
+        android:id="@+id/btnemail"
+        android:text="@string/email"
+        android:layout_below="@+id/btnbuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:onClick="mailsend"
+
+        />
+
+
+
+
+
+</RelativeLayout>

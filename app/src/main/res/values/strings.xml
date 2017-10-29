@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="selecciona_opcion">seleCCiona una OPcion </string>
+    <string name="llamar">llamar</string>
+    <string name="mapa">mapA</string>
+    <string name="buscar">buscar</string>
+    <string name="email">e-mail</string>
+</resources>
